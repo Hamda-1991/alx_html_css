@@ -132,6 +132,9 @@ table {
 body {
   font-family: "Josefin Sans", serif;
   color: rgba(0, 0, 0, 0.8);
+  border: 5px solid #4caf50;
+  margin: 0;
+  padding: 0;
 }
 h1,
 h2,
@@ -139,21 +142,29 @@ h3,
 h4,
 h5,
 h6,
-header {
-  font-family: "Yeseva One", sans-serif;
-}
 article {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 header {
   border-bottom: 1px solid rgb(221, 221, 221);
   transition: border-bottom-color 1s ease;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 header a {
   color: rgba(0, 0, 0, 0.8);
 }
 aside {
-  background: #fafafa;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-left: 2px solid #ccc;
 }
+
 aside p {
   border: 1px solid #bbb;
   background: #ddd;
@@ -261,7 +272,10 @@ h6 {
   font-weight: bold;
   margin: 5px 0;
 }
-
+.logo {
+  font-size: 24px;
+  margin-right: 10px;
+}
 @media (max-width: 800px) {
   body.works_on_smartphone {
     display: block;
